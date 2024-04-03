@@ -231,7 +231,7 @@ def main():
     #Taking Inputs From The User....
 
 
-    col1, col2, col3 = st.columns(3)
+    col2, col1 = st.columns(2)
     car = col2.form('my_car') 
     name = car.text_input("Enter Your Name:")
     make = car.selectbox("Select The Making Company Of The Car:",list(make_dict.keys()))
