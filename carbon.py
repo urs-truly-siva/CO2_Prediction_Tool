@@ -4,6 +4,12 @@ import pickle
 import streamlit as st
 import time
 
+st.set_page_config(
+   page_title="💨 Carbon Dioxide Predictor",
+   page_icon="🚗",
+   layout="wide",
+   initial_sidebar_state="expanded",
+)
 
 # make feature elements 
 make_dict = {
@@ -193,10 +199,6 @@ def footer():
 def main():
 
     # Tab Title and Icon
-    st.set_page_config(
-        page_title="💨 Carbon Dioxide Predictor",
-        page_icon="🚗"
-    )
 
     #Side Bar
     st.sidebar.subheader('Note:')
@@ -283,5 +285,3 @@ def main():
     footer()
 if __name__ == '__main__':
     main()
-
-    
