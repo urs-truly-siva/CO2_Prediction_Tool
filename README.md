@@ -35,7 +35,7 @@ This application predicts the CO2 emissions of a car based on its features using
 
 ## 📬 Contact
 
-For any issues or questions, please contact [your email address].
+For any issues or questions, please contact sivaavanigadda620@gmail.com.
 
 ---
 
